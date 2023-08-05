@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boss Company</title>
+    <link rel="stylesheet" href="newcss.css">
+    
+    
+</head>
+<body>
+    <header>
+        <img src="co.png" alt="job title" height="50" width="300" >
+        <img class="search" src="search.jpg" alt="search" height="70">
+
+        <nav class="hi">
+            
+            <a class="1" href="#" >Home</a>
+            <a class="1" href="#" >Hiring</a>
+            <a href="#">Jobs</a>
+            <a class="1" href="#">About</a>
+            <a class="1" href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <div class="parallax">
+            <!-- ... Your existing parallax layers ... -->
+        </div>
+
+        <section class="hero">
+            <div class="header-content">
+                <h1>Welcome to Coursify</h1>
+                <p>We are hiring talented individuals to join our team.</p>
+                <a href="#jobs" class="cta-button">View Jobs</a>
+            </div>
+        </section>
+        <section class="about">
+            <div class="about-content">
+                <h2>About Us</h2>
+                <p>Welcome to Boss Company! We are a leading company in the industry, committed to delivering high-quality products and services to our customers.</p>
+                <p>Our mission is to provide innovative solutions that exceed our customers' expectations and contribute positively to society.</p>
+            </div>
+        </section>
+        <section class="job-listings" id="jobs">
+            <div class="job-card">
+                <h3>Software Engineer</h3>
+                <p>We are looking for a skilled software engineer with experience in web development and strong problem-solving abilities.</p>
+                <p>Requirements:</p>
+                <ul>
+                    <li>Bachelor's degree in Computer Science or related field</li>
+                    <li>Proficiency in HTML, CSS, and JavaScript</li>
+                    <li>Experience with popular frameworks like React or Angular</li>
+                    <li>Excellent communication skills and ability to work in a team</li>
+                </ul>
+                <a href="apply.html" class="apply-button">Apply Now</a>
+            </div>
+        
+            <!-- Add more job cards for other positions -->
+        </section>
+        <section class="contact">
+            <div class="contact-form">
+                <h2>Contact Us</h2>
+                <form action="submit_form.php" method="post">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+
+    <footer>
+        <p>&copy; 2023 Your Company. All rights reserved.</p>
+    </footer>
+
+    <script src="parallax.js"></script>
+</body>
+</html>
